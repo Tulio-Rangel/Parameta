@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "40116d3f-1994-4007-b8a7-1346bb74058e",
+		"name": "Parameta",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38958363"
+	},
+	"item": [
+		{
+			"name": "Obtener Empleado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/empleado?nombres=Tulio&apellidos=Rangel Nuñez&tipoDocumento=CC&numeroDocumento=12345678&fechaNacimiento=1996-01-20&fechaVinculacion=2020-10-17&cargo=Desarrollador&salario=7000000.00",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"empleado"
+					],
+					"query": [
+						{
+							"key": "nombres",
+							"value": "Tulio"
+						},
+						{
+							"key": "apellidos",
+							"value": "Rangel Nuñez"
+						},
+						{
+							"key": "tipoDocumento",
+							"value": "CC"
+						},
+						{
+							"key": "numeroDocumento",
+							"value": "12345678"
+						},
+						{
+							"key": "fechaNacimiento",
+							"value": "1996-01-20"
+						},
+						{
+							"key": "fechaVinculacion",
+							"value": "2020-10-17"
+						},
+						{
+							"key": "cargo",
+							"value": "Desarrollador"
+						},
+						{
+							"key": "salario",
+							"value": "7000000.00"
+						}
+					]
+				},
+				"description": "Petición tipo GET que recibe los parámetros nombres, apellidos, tipoDocumento, numeroDocumento, fechaNacimiento, fechaVinculacion, cargo y salario y devuelve un JSON con os mismos datos, adicionando la edad del empleado y el tiempo que lleva vinvulado."
+			},
+			"response": [
+				{
+					"name": "Obtener Empleado",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/empleado?nombres=Tulio&apellidos=Rangel Nuñez&tipoDocumento=CC&numeroDocumento=12345678&fechaNacimiento=1996-01-20&fechaVinculacion=2020-10-17&cargo=Desarrollador&salario=7000000.00",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"empleado"
+							],
+							"query": [
+								{
+									"key": "nombres",
+									"value": "Tulio"
+								},
+								{
+									"key": "apellidos",
+									"value": "Rangel Nuñez"
+								},
+								{
+									"key": "tipoDocumento",
+									"value": "CC"
+								},
+								{
+									"key": "numeroDocumento",
+									"value": "12345678"
+								},
+								{
+									"key": "fechaNacimiento",
+									"value": "1996-01-20"
+								},
+								{
+									"key": "fechaVinculacion",
+									"value": "2020-10-17"
+								},
+								{
+									"key": "cargo",
+									"value": "Desarrollador"
+								},
+								{
+									"key": "salario",
+									"value": "7000000.00"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
