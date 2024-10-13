@@ -11,7 +11,7 @@ Este proyecto es un backend para la prueba técnica de Parameta.
 
 - Java 17 o superior
 - Maven
-- MySQL (o base de datos de preferencia)
+- MariaDB (o base de datos de preferencia)
 
 ## Instalación
 
@@ -26,7 +26,7 @@ Este proyecto es un backend para la prueba técnica de Parameta.
    ```
 
 3. Configura la base de datos:
-    - Crea una base de datos MySQL
+    - Crea una base de datos MariaDB o de preferencia
     - Actualiza los detalles de conexión en `src/main/resources/application.properties`
 
 4. Construye el proyecto:
@@ -38,6 +38,7 @@ Este proyecto es un backend para la prueba técnica de Parameta.
    ```
    mvn spring-boot:run
    ```
+   O ejecutar desde el IDE de preferencia.
 
 La aplicación ahora debería estar corriendo en `http://localhost:8080`.
 
@@ -53,5 +54,12 @@ Colección de Postman en:
 ```
 https://github.com/Tulio-Rangel/Parameta/blob/main/Parameta.postman_collection.json
 ```
+
+6. Pruebas unitarias:
+   ```
+   mvn test
+   ```
+   O ejecutar desde el IDE de preferencia
+
 ## Diagrama de Clases
 [![](https://mermaid.ink/img/pako:eNrlVc1u2zAMfhVBpxV1XsAoAhTNbts6NEVPvrAS4wiTRIOSCxRB3r1yEmdyLaQBdpwvpsiPf59EaScVaZS1VBZCWBloGVzjRfoOGvHddRZB0wP5yGQtstgd7cO3GM1r5DejUOB0_Rd522Icwd88uVfGUAno0FqjKYnRdLQi1Tv0kSrhk8C5YoNqC79AGWcyxYvxqrdJS74SCrhNhgAW2NDNMfm-1M3q-TFv43Yd2fhWnOqaG851zk2Tugshp31kgBVE_NxV0Zz1OI9_6Dl3o_7V4sjBHI8adKmJtHE0S1TkbrL_Pyh5G_3fUDllhJn4CUNHPmDpPDkMAVq8QOYTdhRMJH7P_e_ujI_IG1C4XF7wHqcu35H14_3vBztQIAJBdxQLE5tlxpkqa6VjUhiAz8ObzVBpxLL8u39IG9DryymPQuF-WiyWM4Zq0YfxNH7hMtwN18Anm19yGHNfE7yE_RKYUX1tzIz-3CWLdAW6YP5UtwOfzn2Cy0qmoXVgdHpjDuehkXGLDhtZJ1ED_2lk4_cJB32k9btXso7cYyWZ-nYr6w3YkFZ9p9MUnx6osxb1kP7n6QkbfvsPECg5Xw?type=png)](https://mermaid.live/edit#pako:eNrlVc1u2zAMfhVBpxV1XsAoAhTNbts6NEVPvrAS4wiTRIOSCxRB3r1yEmdyLaQBdpwvpsiPf59EaScVaZS1VBZCWBloGVzjRfoOGvHddRZB0wP5yGQtstgd7cO3GM1r5DejUOB0_Rd522Icwd88uVfGUAno0FqjKYnRdLQi1Tv0kSrhk8C5YoNqC79AGWcyxYvxqrdJS74SCrhNhgAW2NDNMfm-1M3q-TFv43Yd2fhWnOqaG851zk2Tugshp31kgBVE_NxV0Zz1OI9_6Dl3o_7V4sjBHI8adKmJtHE0S1TkbrL_Pyh5G_3fUDllhJn4CUNHPmDpPDkMAVq8QOYTdhRMJH7P_e_ujI_IG1C4XF7wHqcu35H14_3vBztQIAJBdxQLE5tlxpkqa6VjUhiAz8ObzVBpxLL8u39IG9DryymPQuF-WiyWM4Zq0YfxNH7hMtwN18Anm19yGHNfE7yE_RKYUX1tzIz-3CWLdAW6YP5UtwOfzn2Cy0qmoXVgdHpjDuehkXGLDhtZJ1ED_2lk4_cJB32k9btXso7cYyWZ-nYr6w3YkFZ9p9MUnx6osxb1kP7n6QkbfvsPECg5Xw)
